@@ -1,0 +1,69 @@
+.board-box * {
+    font-family: 'Noto Sans CJK KR';
+}
+
+.board-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20vh;
+    height: 50rem;
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+
+.board-box hr {
+    width: 100%;
+}
+
+.board-box label {
+    display: block;
+}   
+.board-box textarea {
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: none;
+    height: 100%;
+}   
+.board-box input {
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.board-box .title {
+    vertical-align: middle;
+    height: 10%;
+}
+
+.board-box .content {
+    height: 65%;
+}
+
+.board-box .comments {
+    height:  45%;
+}
+
+.button-box {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.button-box button {
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    background-color: #39AEA9;
+    border: none;
+    font-weight: bold;
+}
+
+.button-box button:hover {
+    background-color: #F3F2C9;
+    cursor: pointer;
+}

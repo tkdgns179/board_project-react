@@ -1,0 +1,26 @@
+.board-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20vh;
+    height: 50rem;
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+
+.board-box h1 {
+}   
+
+.board-box .title {
+    vertical-align: middle;
+    height: 10%;
+}
+
+.board-box .content {
+    height: 65%;
+}
+
+.board-box .comments {
+    height:  45%;
+}

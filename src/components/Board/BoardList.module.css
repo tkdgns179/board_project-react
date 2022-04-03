@@ -1,0 +1,11 @@
+.board-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    position: relative; 
+    top: 20vh;
+    height: 50rem;
+    margin: 0 auto;
+    width: 80%;
+}
