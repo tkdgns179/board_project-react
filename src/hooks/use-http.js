@@ -41,10 +41,10 @@ function useHttp(requestFunction, startWithPending = false) {
             try {
                 const responseData = await requestFunction(requestData)
                 dispatch({ type: 'SUCCESS', responseData })
-                console.log("여기까지 찍히나")
+                // console.log("여기까지 찍히나")
             } catch (error) {
-                console.log("에러진입")
-                console.log(error.message)
+                // console.log("에러진입")
+                // console.log(error.message)
                 dispatch({
                     type: 'ERROR',
                     errorMessage: error.message || 'Something went wrong!',

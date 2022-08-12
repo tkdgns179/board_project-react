@@ -40,7 +40,7 @@ function App() {
     <Layout>
         <Routes>
             <Route path="*" element={<BoardList />} />
-            <Route path="/boardDetail" element={<BoardDetail />} />
+            <Route path="/boardDetail/:id" element={<BoardDetail />} />
             <Route path="/allBoard" element={<AllBoard />} />
             <Route path="/posting" element={<PostingForm />} />
         </Routes>

@@ -87,7 +87,7 @@ const LoginForm = (props) => {
           <Input
             isInvalid={false}
             input={{
-              type: "text",
+              type: "password",
               id: "비밀번호",
               value: password.inputVal,
               onChange: password.setInputHandler,

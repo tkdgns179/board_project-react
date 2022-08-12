@@ -1,0 +1,9 @@
+.title {
+    margin:0;
+    
+}
+
+.content p, h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

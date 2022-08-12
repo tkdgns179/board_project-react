@@ -14,13 +14,32 @@
 
 .board-box .title {
     vertical-align: middle;
+    position: relative;
     height: 10%;
 }
 
+.board-box .writer {
+    background-color: #A5C9CA;
+    color: aliceblue;
+}
+
+.writer ul > li {
+    display: inline-block;
+    padding: 0.5rem;
+    float: right;
+}
+
+.writer ul {
+    margin: 0;
+}
+
 .board-box .content {
+    position: relative;
     height: 65%;
+    margin-top: 3rem;
 }
 
 .board-box .comments {
+    position: relative;
     height:  45%;
 }

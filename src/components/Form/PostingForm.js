@@ -13,6 +13,7 @@ const PostingForm = () => {
   const [files, setFiles] = useState([])
 
   const postApi = async (requestData) => {
+    console.log(token)
     const response = await axios.post(
       "http://localhost:8080/api/user/board/post",
       requestData,
